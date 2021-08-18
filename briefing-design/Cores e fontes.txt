@@ -1,0 +1,9 @@
+Cores:
+
+#1d281b = escuro
+
+#E9E3E0 = claro
+
+Fontes:
+
+Arial
