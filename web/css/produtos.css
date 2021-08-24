@@ -105,7 +105,11 @@
 
 .form button {
   background: none;
-  padding: 5 px 30px;
+  padding: 5px 30px;
+}
+
+.form button:hover{
+  cursor: pointer;
 }
 
 .orcamento-dados {
