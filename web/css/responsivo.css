@@ -1,0 +1,176 @@
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/* Qualidade Home */
+.qualidade:after {
+  right: 72px;
+}
+
+.qualidade_lista li {
+  padding: 0 10px;
+}
+
+/* Produtos */
+.produto-info p {
+  font-size: 14px;
+  line-height: 20px;
+  height: 122px;
+  padding: 20px 30px;
+}
+
+.produto-info ul li {
+  font-size: 16px;
+  color: #1D281B;
+  float: left;
+  width: 181px;
+  height: 49px;
+  text-align: center;
+  padding-top: 16px;
+}
+
+/* Footer */
+.footer_redes ul li {
+  width: 42px;
+}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+/*Header*/
+.header {
+  position: relative;
+  padding-bottom: 0;
+}
+
+.header  a img {
+  margin: 0 auto 30px auto;
+}
+
+.header_menu {
+  text-align: center;
+}
+
+.header_menu ul li {
+  margin: 5px;
+}
+
+.header_menu ul li a {
+  border: 2px solid #E9E3E0;
+  width: 136px;
+  display: block;
+  float: left;
+}
+
+/* Introducao */
+.introducao {
+  margin-top: -10px;
+  padding-top: 30px;
+  background: url("/img/home/bg-home\(mobile-cel\).jpg") no-repeat center;
+  background: cover;
+}
+
+.introducao h1 {
+  font-size: 36px;
+}
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 0;
+  height: 160px;
+  text-align: center;
+  color: #E9E3E0;
+  padding-top: 30px;
+}
+
+/* Call */
+.call {
+  padding-top: 10px;
+}
+
+/* Qualidade Home */
+.qualidade:after {
+  display: none;
+}
+
+.qualidade img {
+  width: 250px;
+}
+
+.qualidade {
+  margin-bottom: -20px;
+}
+
+/* Sobre */
+.missao-sobre p{
+  padding-right: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.missao-sobre {
+  padding-top: 30px;
+}
+
+.missao-sobre ul li {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.missao-sobre h2 {
+  font-size: 24px;
+}
+
+/* Produtos */
+.interna-produtos h1 {
+  font-size: 32px;
+}
+
+.produto-info p {
+  font-size: 14px;
+  line-height: 20px;
+  height: auto;
+  padding: 20px 30px;
+}
+
+.produto-info ul li {
+  font-size: 14px;
+  width: 149px;
+  line-height: 20px;
+}
+
+.produto-icone img {
+  width: 300px;
+  margin-bottom: -60px;
+}
+
+/* Orcamento */
+.form {
+  padding-right: 0;
+}
+
+.orcamento-dados ul {
+  padding-right: 0;
+  padding-bottom: -20px;
+}
+
+.orcamento-dados h3 {
+  margin-top: 50px;
+}
+
+/* Contato */
+.form {
+  padding-right: 0;
+  margin-bottom: 40px;
+}
+
+.contato-mapa {
+  margin: 50px auto;
+  width: 450px;
+}
+
+/* Footer */
+.footer_redes ul li {
+  width: 42px;
+}
+}
