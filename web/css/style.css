@@ -421,3 +421,19 @@ content: "";
 .js [data-slide-nav] button.active {
   background: #91dd9f;
 }
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  translate: translate3d(0, -20px, 0)
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  translate: none;
+  transition: transform .8s, opacity .8s;
+}
+
