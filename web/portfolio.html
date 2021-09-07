@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 
 <body>
@@ -36,20 +37,36 @@
     </div>
   </section>
 
-  <section class="container portfolio-frase">
+  <section class="container portfolio-frase" data-slide="quote">
     <blockquote class="quote-clientes">
       <p>Ser feliz é deixar de ser vítima dos problemas e se tornar autor da própria história.
         É atravessar desertos fora de si, mas ser capaz de encontrar um oásis no recôndito da sua alma.</p>
       <cite>Augusto Cury</cite>
     </blockquote>
+
+    <blockquote class="quote-clientes">
+      <p>Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.</p>
+      <cite>Roberto Shinyashiki</cite>
+    </blockquote>
+  
+    <blockquote class="quote-clientes">
+      <p>O pessimista vê dificuldade em cada oportunidade; o otimista vê oportunidade em cada dificuldade.</p>
+      <cite>Bertram Carr</cite>
+    </blockquote>
   </section>
 
   <section class="portfolio">
-    <div class="container">
+    <div class="container" data-slide="portfolio">
       <ul class="portfolio_lista">
         <li class="grid-8"><img src="/img/home/port-iphone.jpg" alt="BrujoCell Iphone"></li>
         <li class="grid-8"><img src="/img/home/port-samsung.jpg" alt="BrujoCell Samsung"></li>
         <li class="grid-16"><img src="/img/home/port-xiaomi.jpg" alt="BrujoCell Xiaomi"></li>
+      </ul>
+
+      <ul class="portfolio_lista_2">
+        <li class="grid-16"><img src="/img/home/port-xiaomi.jpg" alt="BrujoCell Xiaomi"></li>
+        <li class="grid-8"><img src="/img/home/port-samsung.jpg" alt="BrujoCell Samsung"></li>
+        <li class="grid-8"><img src="/img/home/port-iphone.jpg" alt="BrujoCell Iphone"></li>
       </ul>
     </div>
   </section>
@@ -100,6 +117,9 @@
     </div>
 
   </footer>
+
+  <script src="js/simple-slide.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 
