@@ -20,7 +20,7 @@ Criação de Site Institucional Para Venda de Celulares e Eletrônicos.
 ## Overview
 
 ### Screenshot
-(https://github.com/gildonascimento/brujo-cell/blob/main/web/img/logo/brujocell.svg)
+!(https://github.com/gildonascimento/brujo-cell/blob/main/web/img/logo/brujocell.svg)
 
 
 
